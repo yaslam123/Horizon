@@ -1,5 +1,4 @@
-
-'use client';
+"use client";
 
 import React from "react";
 import SEO from "../common/seo";
@@ -9,7 +8,7 @@ import Wrapper from "../layout/wrapper";
 const Home = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Softec - Data analytics"} />
+      <SEO pageTitle={"Horizon Multi-Sector Solutions"} />
       <HomeOne />
     </Wrapper>
   );

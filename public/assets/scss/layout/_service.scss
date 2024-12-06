@@ -217,7 +217,11 @@
     transition: 0.3s;
   }
   &__bg-shape {
-    background: linear-gradient(41.25deg, #b2d6f8 25.09%, #81e0f5 94.14%);
+    background: linear-gradient(
+      70deg,
+      rgba(253, 151, 47, 1) 10%,
+      rgba(204, 51, 102, 1) 50%
+    );
     border-radius: 20px;
     position: absolute;
     top: 0;
@@ -276,7 +280,11 @@
     background: linear-gradient(180deg, #b0f248 -9.62%, #6dd18a 100%);
   }
   &__color-3 {
-    background: linear-gradient(24.55deg, #ff94c7 22.06%, #ffdbba 92.53%);
+    background: linear-gradient(
+      70deg,
+      rgba(253, 151, 47, 1) 10%,
+      rgba(204, 51, 102, 1) 50%
+    );
   }
   &__color-4 {
     background: linear-gradient(25.41deg, #b67dff 22.21%, #adbfff 91.18%);
@@ -287,8 +295,7 @@
   &__feature-item {
     padding: 50px 60px;
     min-height: 230px;
-    background: linear-gradient(142.23deg, #fff7f1 7.63%, #fae9ef 99.01%),
-      linear-gradient(142.23deg, #fff7f1 7.63%, #fae9ef 99.01%);
+    background: linear-gradient(25.41deg, #b67dff 22.21%, #adbfff 91.18%);
     border-radius: 30px;
     @media #{$xs} {
       padding: 20px;

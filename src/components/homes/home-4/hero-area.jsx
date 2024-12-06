@@ -5,24 +5,22 @@ import useCharAnimation from "@/hooks/useCharAnimation";
 
 import hero_shape from "../../../../public/assets/img/hero/hero-shape-4-1.png";
 import hero_img from "../../../../public/assets/img/hero/hero-4-3.png";
-import hero_4_img_1 from "../../../../public/assets/img/hero/hero-4-1.png";
-import hero_4_img_2 from "../../../../public/assets/img/hero/hero-4-2.png";
 
 const hero_content = {
   title: (
     <>
       <span>
-        <span className="child">Connecting</span>
+        <span className="child">Shaping The </span>
       </span>{" "}
       <span>
-        <span className="child">Africa to the</span>
+        <span className="child">Future Real-State in</span>
       </span>{" "}
       <span>
-        <span className="child">World</span>
+        <span className="child">East Africa.</span>
       </span>
     </>
   ),
-  sub_title: "Innovative, secure, and efficient financial solutions.",
+  sub_title: "Transforming Real Estate Development in East Africa.",
   //  title: "A1-Driven Cyber Security Solutions",
 };
 const { title, sub_title } = hero_content;
@@ -66,7 +64,8 @@ const HeroArea = () => {
                   href="/contact"
                 >
                   <span>
-                    Discover Our Solutions<i className="far fa-angle-right"></i>
+                    Start Your Real Estate Journey with Us
+                    <i className="far fa-angle-right"></i>
                   </span>
                 </Link>
               </div>

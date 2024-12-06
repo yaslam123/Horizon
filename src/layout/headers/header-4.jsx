@@ -6,8 +6,8 @@ import NavMenu from "./nav-menu";
 import Image from "next/image";
 
 import logo from "../../../public/assets/img/logo/colored.png";
-import white_logo from "../../../public/assets/img/logo/white.png";
-import black_logo from "../../../public/assets/img/logo/colored.png";
+import white_logo from "../../../public/assets/img/logo/w.png";
+import black_logo from "../../../public/assets/img/logo/c.png";
 
 const HeaderFour = ({ style_error }) => {
   const { sticky } = useSticky();

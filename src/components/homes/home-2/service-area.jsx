@@ -13,10 +13,10 @@ import bg_img from "../../../../public/assets/img/service/sv-bg-2-1.jpg";
 const service_content = {
   title: (
     <>
-      We provide the <br /> best service for you
+      We Provide <br /> Tailored Solutions for Your Growth
     </>
   ),
-  des: <>Delivering Innovative Financial Solutions to Empower Your Business</>,
+  des: <>Empowering Businesses and Governments with Innovative Solutions.</>,
 
   users_data: [
     {
@@ -53,7 +53,7 @@ const service_content = {
       color: "",
       title: (
         <>
-          FX Liquidity <br /> Provision
+          Development <br /> Management
         </>
       ),
       img: service_img_1,
@@ -63,7 +63,7 @@ const service_content = {
       color: "2",
       title: (
         <>
-          Bank <br /> Transfers
+          Strategic <br /> Consultancy
         </>
       ),
       img: service_img_2,
@@ -71,31 +71,38 @@ const service_content = {
     {
       id: 3,
       color: "3",
-      title: "Blockchain Transactions",
+      title: (
+        <>
+          Research & <br /> Market Insights
+        </>
+      ),
       img: service_img_3,
     },
     {
       id: 4,
       color: "4",
-      title: "Risk Management",
+      title: (
+        <>
+          Public Sector <br /> Solutions
+        </>
+      ),
       img: service_img_4,
     },
   ],
-
-  free_tools_title: "More free tools than you can handle",
+  free_tools_title: "More Services we can handle",
   free_tools: [
-    <>Invoicing</>,
-    <>Online Checkout</>,
-    <>Point-of-Sale</>,
-    <>Online Food Ordering</>,
-    <>ICard Vault</>,
-    <>Customer Portal</>,
-    <>Inventory</>,
-    <>Virtual Terminal</>,
-    <>Recurring Plans</>,
-    <>Payment Links</>,
-    <>SMS Payments</>,
-    <>QR Codes</>,
+    <>Governance Strengthening</>,
+    <>Market & Social Research</>,
+    <>Public Sector Reform</>,
+    <>Investment Strategies</>,
+    <>Supply Chain Optimization</>,
+    <>Technology Solutions</>,
+    <>Capacity Building</>,
+    <>Strategic Planning</>,
+    <>Legal & Compliance Advisory</>,
+    <>Sustainability Initiatives</>,
+    <>Financial & Risk Management</>,
+    <>Human Capital Development</>,
   ],
 };
 const { title, des, users_data, service_data, free_tools_title, free_tools } =
@@ -149,12 +156,9 @@ const ServiceArea = () => {
                     </div>
                     <div className="tp-service-2__text">
                       <h4 className="tp-service-2__title-sm">
-                        <Link href="/service-details">{item.title}</Link>
+                        <Link href="/">{item.title}</Link>
                       </h4>
-                      <Link
-                        className="tp-service-2__link"
-                        href="/service-details"
-                      >
+                      <Link className="tp-service-2__link" href="/">
                         Explore
                         <i className="far fa-arrow-right"></i>
                       </Link>
@@ -174,6 +178,7 @@ const ServiceArea = () => {
               data-wow-duration=".9s"
               data-wow-delay=".9s"
             >
+              {" "}
               <div className="tp-service-2__bottom-wrapper p-relative mt-110">
                 <div className="tp-service-2__feature-item">
                   <h4 className="tp-service-2__feature-title">

@@ -2,11 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-
 import icon_1 from "../../../public/assets/img/contact/contact-icon-sm-1.png";
 import icon_2 from "../../../public/assets/img/contact/contact-icon-sm-2.png";
 import icon_3 from "../../../public/assets/img/contact/contact-icon-sm-3.png";
-
 
 const inner_content = {
   title: "Book a Demo!",
@@ -16,20 +14,19 @@ const inner_content = {
     {
       id: 1,
       icon: icon_1,
-      title: "contact@softuch.com",
-      link: "mailto:contact@softuch.com",
+      title: "info@horizonms.org",
+      link: "mailto:info@horizonms.org",
     },
     {
       id: 2,
       icon: icon_2,
-      title: "+1-202-555-0144",
-      link: "tel:+1-202-555-0144",
+      title: "+252 614303031",
+      link: "+252614303031",
     },
     {
       id: 3,
       icon: icon_3,
-      title: "35Park Avenue, Uk",
-      link: "https://www.google.com.bd/maps/@23.7806365,90.4193257,12z",
+      title: "Amira roud, Sobe Km5, Mogadishu-Somalia",
     },
   ],
 };
@@ -65,7 +62,7 @@ const ContactInner = () => {
             </div>
           </div>
         </div>
-      </div> 
+      </div>
     </>
   );
 };

@@ -11,9 +11,7 @@ const SendIcon = () => {
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <rect 
-        width="44" height="44" 
-        fill="url(#pattern0)" />
+        <rect width="44" height="44" fill="#cc3366" />
         <defs>
           <pattern
             id="pattern0"

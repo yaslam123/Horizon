@@ -1,41 +1,72 @@
-import VideoPopup from '@/modals/video-popup';
-import React,{useState} from 'react';
+import VideoPopup from "@/modals/video-popup";
+import React, { useState } from "react";
 
-const company_content ={
-    sub_title:  "ABOUT THE COMPANY",
-    title: <>Softuch is Made <br />For the Creator.</>,
-    info_1: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum arcu sollicitudin viverra sit elit leo in. Vitae eu tellus mattis quis. Eu, tempus donec nam mauris egestas. Id aliquet ultricies ligula tellus arcu dolor. Massa arcu pulvinar in mattis</>,
-    info_2: <>Feugiat purus congue risus, blandit a sed. In aenean quam aenean purus dictum pellentesque consequat.!</>,
-    info_3: <>Our clean and simple APIs and transparent SaaS model will give you complete peace of mind.</>,
-}
-const {sub_title, title, info_1, info_2, info_3}  = company_content
-
+const company_content = {
+  sub_title: "ABOUT THE COMPANY",
+  title: (
+    <>
+      Horizon multi-sector solution Company <br /> is Made For the People.
+    </>
+  ),
+  info_1: (
+    <>
+      Horizon Multisector Solutions is a professional services firm founded in
+      2024, based in Mogadishu, Somalia. We specialize in development
+      management, consultancy, research, and sector-specific solutions,
+      providing tailored services to businesses, governments, and NGOs across
+      East Africa. Our aim is to help organizations navigate complex challenges
+      and seize opportunities for sustainable growth.
+    </>
+  ),
+  info_2: (
+    <>
+      Our vision is to be a trusted partner for organizations seeking to drive
+      positive change and growth. We are committed to fostering innovation and
+      resilience, empowering our clients to achieve long-term success in a
+      rapidly evolving global market.
+    </>
+  ),
+  info_3: (
+    <>
+      At Horizon, we pride ourselves on our commitment to integrity, excellence,
+      and customer satisfaction. We deliver customized, high-impact solutions
+      that not only meet but exceed the expectations of our clients, making us a
+      trusted partner in your journey toward sustainable success and
+      development.
+    </>
+  ),
+};
+const { sub_title, title, info_1, info_2, info_3 } = company_content;
 
 const CompanyArea = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
 
-    return (
-        <>
-            <div className="ab-company-area pt-105 pb-100">
-               <div className="container">
-                  <div className="row ab-company-section-space">
-                     <div className="col-xl-6">
-                        <div className="ab-company-section-box">
-                           <h4 className="inner-section-subtitle">{sub_title}</h4>
-                           <h3 className="tp-section-title">{title}</h3>
-                        </div>
-                     </div>
-                     <div className="col-xl-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
-                        <div className="ab-company-right">
-                           <div className="ab-company-section-text">
-                              <p className="pb-10">{info_1}</p>
-                              <p className="pb-10">{info_2}</p>
-                              <p><span>{info_3}</span></p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div className="row align-items-center">
+  return (
+    <>
+      <div className="ab-company-area pt-105 pb-100">
+        <div className="container">
+          <div className="row ab-company-section-space">
+            <div className="col-xl-6">
+              <div className="ab-company-section-box">
+                <h4 className="inner-section-subtitle">{sub_title}</h4>
+                <h3 className="tp-section-title">{title}</h3>
+              </div>
+            </div>
+            <div
+              className="col-xl-6 wow tpfadeRight"
+              data-wow-duration=".9s"
+              data-wow-delay=".5s"
+            >
+              <div className="ab-company-right">
+                <div className="ab-company-section-text">
+                  <p className="pb-10">{info_1}</p>{" "}
+                  <p className="pb-10">{info_3}</p>
+                  <p className="pb-10">{info_2}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <div className="row align-items-center">
                      <div className="col-xl-4">
                         <div className="ab-company-video">
                            <a className="popup-video" 
@@ -77,19 +108,19 @@ const CompanyArea = () => {
                            </div>
                         </div>
                      </div>
-                  </div>
-               </div>
-            </div>
+                  </div> */}
+        </div>
+      </div>
 
-             {/* video modal start */}
+      {/* video modal start */}
       <VideoPopup
         isVideoOpen={isVideoOpen}
         setIsVideoOpen={setIsVideoOpen}
         videoId={"EW4ZYb3mCZk"}
       />
       {/* video modal end */}
-        </>
-    );
+    </>
+  );
 };
 
 export default CompanyArea;

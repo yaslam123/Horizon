@@ -12,9 +12,9 @@ import NiceSelect from "@/ui/nice-select";
 const contact_content = {
   sub_title: "CONTACT US",
   title: "Request Free Consultancy",
-  phone: "(+806)0008899",
-  email: "contact@info.com",
-  location: <>1811 Silverside Rd, Wilmington, DE 19810, USA</>,
+  phone: "+252 614303031",
+  email: "info@horizonms.org",
+  location: <>Amira roud, Sobe Km5, Mogadishu-Somalia</>,
 };
 const { sub_title, title, phone, email, location } = contact_content;
 
@@ -76,59 +76,49 @@ const ContactArea = () => {
                 <div className="tp-contact-shape">
                   <Image src={shape_1} alt="theme-pure" />
                 </div>
-                <div className="row">
-                  <div className="col-xl-6">
-                    <div className="tp-contact-input mb-20">
-                      <input type="text" placeholder="Full name" required />
-                    </div>
-                  </div>
-                  <div className="col-xl-6">
-                    <div className="tp-contact-input mb-20">
-                      <input
-                        type="email"
-                        placeholder="Email address"
-                        required
-                      />
-                    </div>
-                  </div>
-                  <div className="col-xl-12">
-                    <div className="tp-contact-select">
-                      <div className="tp-select-icon">
-                        <NiceSelect
-                          options={[
-                            {
-                              value: "Hack Protection",
-                              text: "Hack Protection",
-                            },
-                            { value: "Online Support", text: "Online Support" },
-                            { value: "Live Security", text: "Live Security" },
-                            {
-                              value: "Hack Protection2",
-                              text: "Hack Protection2",
-                            },
-                          ]}
-                          defaultCurrent={0}
-                          onChange={selectHandler}
+                <form action="https://formspree.io/f/xwpkzjad" method="POST">
+                  <div className="row">
+                    <div className="col-xl-6">
+                      <div className="tp-contact-input mb-20">
+                        <input
+                          type="text"
+                          name="Name"
+                          placeholder="Full name"
+                          required
                         />
                       </div>
                     </div>
-                  </div>
-                  <div className="col-xl-12">
-                    <div className="tp-contact-input mb-20">
-                      <textarea placeholder="Enter your message"></textarea>
+                    <div className="col-xl-6">
+                      <div className="tp-contact-input mb-20">
+                        <input
+                          type="email"
+                          name="Email"
+                          placeholder="Email address"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div className="col-xl-12">
+                      <div className="tp-contact-input mb-20">
+                        <textarea
+                          name="Message"
+                          placeholder="Enter your message"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div className="col-xl-12">
+                      <div className="tp-contact-btn">
+                        <button
+                          type="submit"
+                          className="tp-btn-yellow-lg yellow-bg w-100"
+                        >
+                          Get a free consultation
+                        </button>
+                      </div>
                     </div>
                   </div>
-                  <div className="col-xl-12">
-                    <div className="tp-contact-btn">
-                      <button
-                        type="submit"
-                        className="tp-btn-yellow-lg yellow-bg w-100"
-                      >
-                        Get a free consultation
-                      </button>
-                    </div>
-                  </div>
-                </div>
+                </form>
               </div>
             </div>
           </div>

@@ -9,12 +9,12 @@ import React from "react";
 
 import shape_img_1 from "../../../public/assets/img/footer/footer-inner-1.png";
 import shape_img_2 from "../../../public/assets/img/footer/footer-inner-2.png";
-import footer_logo from "../../../public/assets/img/logo/colored.png";
+import footer_logo from "../../../public/assets/img/logo/c.png";
 
 const footer_content = {
-  info: "Build a modern and creative website with crealand",
-  phone: "+806 (000) 88 99",
-  email: "contact@info.com",
+  info: "Build a modern and creative insitituions",
+  phone: "+252 614303031",
+  email: "info@horizonms.org",
 
   footer_lisks: [
     {
@@ -24,11 +24,9 @@ const footer_content = {
       title: "Navigation",
       delay: ".7s",
       links: [
-        { name: "Damo page", link: "#" },
+        { name: "Home", link: "#" },
         { name: "About", link: "/about" },
-        { name: "Pricing Plan", link: "/price" },
-        { name: "Integrations", link: "/integrations" },
-        { name: "Blog", link: "/blog" },
+        { name: "Services", link: "/service" },
         { name: "Contact", link: "/contact" },
       ],
     },
@@ -36,15 +34,13 @@ const footer_content = {
       id: 2,
       cls_1: "col-xl-2 col-lg-2",
       cls_2: "footer-col-3-3",
-      title: "Other Pages",
+      title: "Others",
       delay: ".9s",
       links: [
-        { name: "Features", link: "#" },
-        { name: "Team", link: "/team" },
-        { name: "Careers", link: "#" },
-        { name: "Login", link: "/login" },
-        { name: "Register", link: "/register" },
-        { name: "404 Not found", link: "/404" },
+        { name: "Terms & Conditions", link: "#" },
+        { name: "Privacy Policy", link: "#" },
+        { name: "Legal Frame-Work", link: "#" },
+        { name: "FAQs", link: "/Contact" },
       ],
     },
   ],
@@ -179,9 +175,7 @@ const FooterFive = ({ style_contact, bg_style = true, style_team }) => {
             <div className="row justify-content-center">
               <div className="col-xl-4 col-lg-6 col-md-6">
                 <div className="tp-copyright__text tp-copyright__text-3 text-center">
-                  <span>
-                    <CopyRight />
-                  </span>
+                  <span></span>
                 </div>
               </div>
             </div>
