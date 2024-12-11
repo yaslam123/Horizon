@@ -53,7 +53,7 @@ const service_content = {
       color: "",
       title: (
         <>
-          Development <br /> Management
+          Governance <br /> Strengthening
         </>
       ),
       img: service_img_1,
@@ -63,27 +63,67 @@ const service_content = {
       color: "2",
       title: (
         <>
-          Strategic <br /> Consultancy
+          Project <br /> Management
         </>
       ),
       img: service_img_2,
     },
     {
       id: 3,
-      color: "3",
+      color: "4",
       title: (
         <>
-          Research & <br /> Market Insights
+          Research & <br /> Services
         </>
       ),
       img: service_img_3,
     },
     {
       id: 4,
+      color: "",
+      title: (
+        <>
+          Sustainability & <br /> Climate Adaptation
+        </>
+      ),
+      img: service_img_4,
+    },
+    {
+      id: 5,
+      color: "2",
+      title: (
+        <>
+          Education System <br /> Strengthening
+        </>
+      ),
+      img: service_img_1,
+    },
+    {
+      id: 6,
       color: "4",
       title: (
         <>
-          Public Sector <br /> Solutions
+          One Health <br /> System
+        </>
+      ),
+      img: service_img_2,
+    },
+    {
+      id: 7,
+      color: "",
+      title: (
+        <>
+          P&O and Strategic <br /> Resilience
+        </>
+      ),
+      img: service_img_3,
+    },
+    {
+      id: 8,
+      color: "4",
+      title: (
+        <>
+          Digital <br /> Transformation
         </>
       ),
       img: service_img_4,

@@ -65,13 +65,15 @@ const HeroArea = () => {
                     </i>
                   </h3>
                   <p
-                    className="wow tpfadeUp"
+                    className="wow tpfadeUp pr-60"
                     data-wow-duration=".9s"
                     data-wow-delay=".5s"
                   >
-                    We offer transformative, sector-specific solutions that
-                    drive success and long-term growth in any industry. <br />
-                    Partner with us for a future-ready business.
+                    HORIZON MULTISECTOR SOLUTIONS IS A PROFESSIONAL SERVICES
+                    FIRM SPECIALIZING IN DEVELOPMENT MANAGEMENT, MANAGEMENT
+                    CONSULTANCY, RESEARCH, ADVISORY, AND SECTOR-SPECIFIC
+                    SOLUTIONS FOR PUBLIC, PRIVATE, AND NON- GOVERNMENTAL
+                    ORGANIZATIONS (NGOS).
                   </p>
                 </div>
                 <div
