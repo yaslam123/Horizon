@@ -37,17 +37,17 @@ const ContactFormArea = () => {
                 </div>
                 <div className="contact-form-social-box p-relative">
                   <div className="contact-form-social-item">
-                    <Link href="#">
+                    <Link href="https://www.facebook.com/profile.php?id=61570263425985">
                       <i className="fab fa-facebook-f"></i>
                     </Link>
-                    <Link href="#">
+                    <Link href="https://www.instagram.com/horizonmsorg/?next=%2F">
+                      <i className="fab fa-instagram"></i>
+                    </Link>
+                    <Link href="https://www.facebook.com/profile.php?id=61570263425985">
                       <i className="fab fa-twitter"></i>
                     </Link>
-                    <Link href="#">
+                    <Link href="https://www.instagram.com/horizonmsorg/?next=%2F">
                       <i className="fab fa-linkedin-in"></i>
-                    </Link>
-                    <Link href="#">
-                      <i className="fab fa-instagram"></i>
                     </Link>
                   </div>
                   <div className="contact-form-section-img">

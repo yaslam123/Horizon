@@ -5,7 +5,7 @@ const company_content = {
   sub_title: "ABOUT THE COMPANY",
   title: (
     <>
-      Horizon multi-sector solution Company <br /> is Made For the People.
+      Horizon Multi-Sector Solutions Firm <br /> is Made For The People.
     </>
   ),
   info_1: (
